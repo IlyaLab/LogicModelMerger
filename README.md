@@ -1,8 +1,8 @@
-# Merging Logical Models: A Workflow for Integrating Gene Regulatory Networks in Acute Myeloid Leukemia Modeling
+# A Workflow for Merging Logical Gene Regulatory Network Models
 
 ## Overview
 
-This repository contains the code and resources for merging gene regulatory network (GRN) models as described in the manuscript **"Merging Logical Models: An Application in Acute Myeloid Leukemia Modeling"**. The repository provides a complete workflow for merging logic models, enhancing our understanding of complex biological systems, particularly in the context of Acute Myeloid Leukemia (AML).
+This repository contains the code and resources for merging gene regulatory network (GRN) models as described in the manuscript **"Merging Logical Models: An Application in Acute Myeloid Leukemia Modeling"**. The repository provides a complete workflow for merging logic models, enhancing our understanding of complex biological systems, and demonstrate its application in Acute Myeloid Leukemia (AML).
 
 ## Repository Structure
 
