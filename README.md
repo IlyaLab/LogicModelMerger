@@ -63,3 +63,17 @@ For more information about CoLoMoTo Interactive Notebook, visit [CoLoMoTo](http:
 
 3. **Run notebooks:**
    Navigate to the relevant directory and open the Jupyter notebooks using the CoLoMoTo notebook or your preferred Jupyter environment.
+
+### Reproducing the Figures in the Manuscript
+
+Figures from the manuscript can be reproduced using the following notebooks:
+- Figure 3: `Evaluating the merged model/Stable states heatmap.ipynb`
+- Figure 4: `Evaluating the merged model/Correlation with HSC expression.ipynb`
+- Figure 5a,b: `Evaluating the merged model/Correlation with clinical outcome_BeatAML_Palma approach.ipynb`
+- Figure 5c,d: `Evaluating the merged model/Correlation with clinical outcome_all mutation.ipynb`
+- Figure S1: `Evaluating the merged model/Stable states heatmap.ipynb`
+- Figure S2: `Evaluating the merged model/Correlation with HSC expression.ipynb`
+- Figure S3, S4: `Reproducing selected models/Palma2021/Palma2021.ipynb`
+- Figure S5: `Evaluating the merged model/Correlation with clinical outcome_BeatAML_Palma approach.ipynb`
+- Figure S6: `Evaluating the merged model/Correlation with clinical outcome_all mutation.ipynb`
+- Figure S7: `Evaluating the merged model/Coverage.ipynb`
