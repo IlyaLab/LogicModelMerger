@@ -39,7 +39,7 @@ This repository is organized according to the workflow described in the manuscri
             - Blast percentages from the BeatAML data
                 - [Using approach similar to Palma et al.](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_BeatAML_Palma%20approach.ipynb) *(Fig 5a,b, Fig S5)*
                 - [Using all mutations](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_BeatAML_all%20mutation.ipynb) *(Fig 5c,d, Fig S6)*
-            - [Blast percentages from the TCGA data](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_TCGA.ipynb)
+            - [Blast percentages from the TCGA data](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_TCGA.ipynb) *(Fig S4)*
             - [Hazard ratio for death from the AMLSG data](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_AMLSG.ipynb)
 
 - [**`Data`**](Data): Contains datasets used for model evaluation.
