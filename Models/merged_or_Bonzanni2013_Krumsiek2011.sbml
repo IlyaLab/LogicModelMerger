@@ -866,6 +866,7 @@
 			</qual:transition>
 			<qual:transition qual:id="tr_SPI1" qual:name="Interactions targeting SPI1">
 				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="RUNX1" qual:transitionEffect="none"/>
 					<qual:input qual:qualitativeSpecies="CEBPA" qual:transitionEffect="none"/>
 					<qual:input qual:qualitativeSpecies="GATA1" qual:transitionEffect="none"/>
 					<qual:input qual:qualitativeSpecies="GATA2" qual:transitionEffect="none"/>
@@ -883,9 +884,22 @@
 								<apply>
 									<and/>
 									<apply>
-										<eq/>
-										<ci>FLI1</ci>
-										<cn type="integer">1</cn>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>FLI1</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>RUNX1</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>SPI1</ci>
+											<cn type="integer">1</cn>
+										</apply>
 									</apply>
 									<apply>
 										<not/>
