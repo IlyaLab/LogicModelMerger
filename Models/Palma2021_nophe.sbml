@@ -3,26 +3,8 @@
   <model id="model_id">
     <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <layout:layout layout:id="__layout__">
-        <layout:dimensions layout:height="230" layout:width="730"/>
+        <layout:dimensions layout:height="165" layout:width="580"/>
         <layout:listOfAdditionalGraphicalObjects>
-          <layout:generalGlyph layout:id="_ly_Apoptosis" layout:reference="Apoptosis">
-            <layout:boundingBox>
-              <layout:position layout:x="10" layout:y="205"/>
-              <layout:dimensions layout:height="25" layout:width="45"/>
-            </layout:boundingBox>
-          </layout:generalGlyph>
-          <layout:generalGlyph layout:id="_ly_Differentiation" layout:reference="Differentiation">
-            <layout:boundingBox>
-              <layout:position layout:x="86" layout:y="205"/>
-              <layout:dimensions layout:height="25" layout:width="45"/>
-            </layout:boundingBox>
-          </layout:generalGlyph>
-          <layout:generalGlyph layout:id="_ly_Proliferation" layout:reference="Proliferation">
-            <layout:boundingBox>
-              <layout:position layout:x="160" layout:y="205"/>
-              <layout:dimensions layout:height="25" layout:width="45"/>
-            </layout:boundingBox>
-          </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_AKT1" layout:reference="AKT1">
             <layout:boundingBox>
               <layout:position layout:x="10" layout:y="75"/>
@@ -31,25 +13,25 @@
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_CDKN2A" layout:reference="CDKN2A">
             <layout:boundingBox>
-              <layout:position layout:x="86" layout:y="75"/>
+              <layout:position layout:x="85" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_BCL2" layout:reference="BCL2">
             <layout:boundingBox>
-              <layout:position layout:x="160" layout:y="75"/>
+              <layout:position layout:x="10" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_CCND1" layout:reference="CCND1">
             <layout:boundingBox>
-              <layout:position layout:x="235" layout:y="75"/>
+              <layout:position layout:x="85" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_CEBPA" layout:reference="CEBPA">
             <layout:boundingBox>
-              <layout:position layout:x="310" layout:y="75"/>
+              <layout:position layout:x="160" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
@@ -61,49 +43,49 @@
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_MAPK1" layout:reference="MAPK1">
             <layout:boundingBox>
-              <layout:position layout:x="385" layout:y="75"/>
+              <layout:position layout:x="235" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_ETV6" layout:reference="ETV6">
             <layout:boundingBox>
-              <layout:position layout:x="460" layout:y="74"/>
+              <layout:position layout:x="160" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_FBXW7" layout:reference="FBXW7">
             <layout:boundingBox>
-              <layout:position layout:x="535" layout:y="75"/>
+              <layout:position layout:x="310" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_FLT3" layout:reference="FLT3">
             <layout:boundingBox>
-              <layout:position layout:x="85" layout:y="9"/>
+              <layout:position layout:x="85" layout:y="10"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_GSK3B" layout:reference="GSK3B">
             <layout:boundingBox>
-              <layout:position layout:x="611" layout:y="75"/>
+              <layout:position layout:x="385" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_HOXA9" layout:reference="HOXA9">
             <layout:boundingBox>
-              <layout:position layout:x="685" layout:y="75"/>
+              <layout:position layout:x="460" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_MEIS1" layout:reference="MEIS1">
             <layout:boundingBox>
-              <layout:position layout:x="42" layout:y="140"/>
+              <layout:position layout:x="235" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_MYC" layout:reference="MYC">
             <layout:boundingBox>
-              <layout:position layout:x="117" layout:y="140"/>
+              <layout:position layout:x="310" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
@@ -115,19 +97,19 @@
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_SOX4" layout:reference="SOX4">
             <layout:boundingBox>
-              <layout:position layout:x="192" layout:y="140"/>
+              <layout:position layout:x="385" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_STAT5A" layout:reference="STAT5A">
             <layout:boundingBox>
-              <layout:position layout:x="267" layout:y="140"/>
+              <layout:position layout:x="460" layout:y="140"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
           <layout:generalGlyph layout:id="_ly_TP53" layout:reference="TP53">
             <layout:boundingBox>
-              <layout:position layout:x="343" layout:y="140"/>
+              <layout:position layout:x="535" layout:y="75"/>
               <layout:dimensions layout:height="25" layout:width="45"/>
             </layout:boundingBox>
           </layout:generalGlyph>
@@ -135,13 +117,10 @@
       </layout:layout>
     </layout:listOfLayouts>
     <qual:listOfQualitativeSpecies xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:constant="false" qual:name="v_Apoptosis" qual:id="Apoptosis"/>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:constant="false" qual:name="v_Differentiation" qual:id="Differentiation"/>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:constant="false" qual:name="v_Proliferation" qual:id="Proliferation"/>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="ef0e6945-13cb-454d-8945-80d1e1bb7953" qual:id="AKT1" qual:constant="false" qual:name="akt">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_75dcc291-22d8-4114-bf1f-7078fca8424f" qual:id="AKT1" qual:constant="false" qual:name="akt">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#ef0e6945-13cb-454d-8945-80d1e1bb7953">
+	<rdf:Description rdf:about="#_75dcc291-22d8-4114-bf1f-7078fca8424f">
               <bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource=":Protein family, formed by AKT1, AKT2, AKT3"/>
@@ -157,10 +136,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_8a258437-7d01-4bcb-9da9-f353caf82bb9" qual:id="CDKN2A" qual:constant="false" qual:name="arf">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_2087a884-6d7f-4293-a0e0-ec0ce409ba52" qual:id="CDKN2A" qual:constant="false" qual:name="arf">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_8a258437-7d01-4bcb-9da9-f353caf82bb9">
+	<rdf:Description rdf:about="#_2087a884-6d7f-4293-a0e0-ec0ce409ba52">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:1787"/>
@@ -170,10 +149,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_3f125016-50fd-4ac8-b68e-899fae4d53b8" qual:id="BCL2" qual:constant="false" qual:name="bcl2">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_62b7ef61-2599-42c6-a157-1c1b9687d378" qual:id="BCL2" qual:constant="false" qual:name="bcl2">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_3f125016-50fd-4ac8-b68e-899fae4d53b8">
+	<rdf:Description rdf:about="#_62b7ef61-2599-42c6-a157-1c1b9687d378">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:990"/>
@@ -183,10 +162,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_3a45be2b-3525-4658-aa67-2bab6c511901" qual:id="CCND1" qual:constant="false" qual:name="ccnd1">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_831679b3-b015-418a-9f79-73cc8ca483b7" qual:id="CCND1" qual:constant="false" qual:name="ccnd1">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_3a45be2b-3525-4658-aa67-2bab6c511901">
+	<rdf:Description rdf:about="#_831679b3-b015-418a-9f79-73cc8ca483b7">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:1582"/>
@@ -196,10 +175,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_00329081-0c2b-4c19-934d-532ff724337c" qual:id="CEBPA" qual:constant="false" qual:name="cebpa">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_15bcd25e-085f-4836-8886-e281fea52724" qual:id="CEBPA" qual:constant="false" qual:name="cebpa">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_00329081-0c2b-4c19-934d-532ff724337c">
+	<rdf:Description rdf:about="#_15bcd25e-085f-4836-8886-e281fea52724">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:1833"/>
@@ -209,10 +188,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_8e020a23-4c09-4d18-a0d6-8cd6303d8f15" qual:id="DNMT3A" qual:constant="false" qual:name="dnmt3a">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_4a594fab-c8b5-47f1-9824-7fb7c8a5f17e" qual:id="DNMT3A" qual:constant="false" qual:name="dnmt3a">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_8e020a23-4c09-4d18-a0d6-8cd6303d8f15">
+	<rdf:Description rdf:about="#_4a594fab-c8b5-47f1-9824-7fb7c8a5f17e">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:2978"/>
@@ -222,10 +201,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_2bb43da1-be24-491b-8b3e-74f98b8acd40" qual:id="MAPK1" qual:constant="false" qual:name="erk">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_12172cc0-9a86-42bf-944f-90014c0da5a3" qual:id="MAPK1" qual:constant="false" qual:name="erk">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_2bb43da1-be24-491b-8b3e-74f98b8acd40">
+	<rdf:Description rdf:about="#_12172cc0-9a86-42bf-944f-90014c0da5a3">
               <bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource=":Protein family, formed by MAPK1, MAPK3"/>
@@ -242,10 +221,10 @@
 	</annotation>
             </qual:qualitativeSpecies>
       <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:constant="false" qual:name="etv6" qual:id="ETV6"/>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_61f7af0b-9912-478c-916b-3590cb1965bb" qual:id="FBXW7" qual:constant="false" qual:name="fbxw7">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_73bea321-1107-4177-a165-27b4826ae5fd" qual:id="FBXW7" qual:constant="false" qual:name="fbxw7">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_61f7af0b-9912-478c-916b-3590cb1965bb">
+	<rdf:Description rdf:about="#_73bea321-1107-4177-a165-27b4826ae5fd">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:16712"/>
@@ -255,10 +234,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_1556b216-b0c3-4f5e-8bed-1ed95256565f" qual:id="FLT3" qual:constant="false" qual:name="flt3">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_4ac34cd2-8320-4a48-bfb2-3fbe19ced7cd" qual:id="FLT3" qual:constant="false" qual:name="flt3">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_1556b216-b0c3-4f5e-8bed-1ed95256565f">
+	<rdf:Description rdf:about="#_4ac34cd2-8320-4a48-bfb2-3fbe19ced7cd">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:3765"/>
@@ -268,10 +247,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_51c8075a-7fe2-47ea-a23f-76120746a0c6" qual:id="GSK3B" qual:constant="false" qual:name="gsk3b">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="aaa3a1de-fc71-405a-9a9a-bc54324d93cb" qual:id="GSK3B" qual:constant="false" qual:name="gsk3b">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_51c8075a-7fe2-47ea-a23f-76120746a0c6">
+	<rdf:Description rdf:about="#aaa3a1de-fc71-405a-9a9a-bc54324d93cb">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:4617"/>
@@ -281,10 +260,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_5e11162b-cbef-4b25-ae75-4cfd1cb43087" qual:id="HOXA9" qual:constant="false" qual:name="hoxa9">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_09b279c1-3362-41ff-8379-b19cf01b98d4" qual:id="HOXA9" qual:constant="false" qual:name="hoxa9">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_5e11162b-cbef-4b25-ae75-4cfd1cb43087">
+	<rdf:Description rdf:about="#_09b279c1-3362-41ff-8379-b19cf01b98d4">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:5109"/>
@@ -294,10 +273,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_5cfd55a0-9091-484c-8be9-8e61a846ddd9" qual:id="MEIS1" qual:constant="false" qual:name="meis1">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="d80d60c2-0f59-4ea3-919e-1a43f72aada2" qual:id="MEIS1" qual:constant="false" qual:name="meis1">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_5cfd55a0-9091-484c-8be9-8e61a846ddd9">
+	<rdf:Description rdf:about="#d80d60c2-0f59-4ea3-919e-1a43f72aada2">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:7000"/>
@@ -307,10 +286,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="b5288940-ea2f-4500-8068-90f85b4ce690" qual:id="MYC" qual:constant="false" qual:name="myc">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="fae4fde9-4dfc-4b4b-87b7-f5fa198e18f6" qual:id="MYC" qual:constant="false" qual:name="myc">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#b5288940-ea2f-4500-8068-90f85b4ce690">
+	<rdf:Description rdf:about="#fae4fde9-4dfc-4b4b-87b7-f5fa198e18f6">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:7553"/>
@@ -320,10 +299,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="f676d9af-0345-4bc7-95b1-7b973658909e" qual:id="NPM1" qual:constant="false" qual:name="npm1">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="cecdfbcb-51fe-4273-b1ed-64034dd5ce20" qual:id="NPM1" qual:constant="false" qual:name="npm1">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#f676d9af-0345-4bc7-95b1-7b973658909e">
+	<rdf:Description rdf:about="#cecdfbcb-51fe-4273-b1ed-64034dd5ce20">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:7910"/>
@@ -333,10 +312,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_66752be6-0fac-440c-9c18-3419114f630c" qual:id="SOX4" qual:constant="false" qual:name="sox4">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="c54f5149-dddd-48b0-8f7b-537a6e7808a6" qual:id="SOX4" qual:constant="false" qual:name="sox4">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_66752be6-0fac-440c-9c18-3419114f630c">
+	<rdf:Description rdf:about="#c54f5149-dddd-48b0-8f7b-537a6e7808a6">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:11200"/>
@@ -346,10 +325,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="d063e1c6-6029-435e-ad7d-198c68b52ffe" qual:id="STAT5A" qual:constant="false" qual:name="stat5a">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_57539a55-69b8-4fc4-a6e2-26d65b748a90" qual:id="STAT5A" qual:constant="false" qual:name="stat5a">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#d063e1c6-6029-435e-ad7d-198c68b52ffe">
+	<rdf:Description rdf:about="#_57539a55-69b8-4fc4-a6e2-26d65b748a90">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:11366"/>
@@ -359,10 +338,10 @@
 	</rdf:RDF>
 	</annotation>
             </qual:qualitativeSpecies>
-      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_7ce6f48e-8319-4570-8f78-5ae7b22e3e3f" qual:id="TP53" qual:constant="false" qual:name="tp53">
+      <qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" metaid="_86ed2f3c-408f-4391-ae0c-801a20149bfb" qual:id="TP53" qual:constant="false" qual:name="tp53">
         <annotation>
 	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-	<rdf:Description rdf:about="#_7ce6f48e-8319-4570-8f78-5ae7b22e3e3f">
+	<rdf:Description rdf:about="#_86ed2f3c-408f-4391-ae0c-801a20149bfb">
 	<bqbiol:unknownQualifier>
 	<rdf:Bag>
 	<rdf:li rdf:resource="HGNC:11998"/>
@@ -374,201 +353,9 @@
             </qual:qualitativeSpecies>
     </qual:listOfQualitativeSpecies>
     <qual:listOfTransitions xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
-      <qual:transition qual:id="tr_Apoptosis">
-        <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="BCL2" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_Apoptosis_in_5"/>
-          <qual:input qual:qualitativeSpecies="TP53" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Apoptosis_in_20"/>
-        </qual:listOfInputs>
-        <qual:listOfOutputs>
-          <qual:output qual:qualitativeSpecies="Apoptosis" qual:transitionEffect="assignmentLevel" qual:id="tr_Apoptosis_out"/>
-        </qual:listOfOutputs>
-        <qual:listOfFunctionTerms>
-          <qual:defaultTerm qual:resultLevel="0">
-          </qual:defaultTerm>
-          <qual:functionTerm qual:resultLevel="1">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">            
-              <apply>
-                <and/>
-                <apply>
-                  <eq/>
-                  <ci> BCL2 </ci>
-                  <cn type="integer"> 0 </cn>
-                </apply>
-                <apply>
-                  <eq/>
-                  <ci> TP53 </ci>
-                  <cn type="integer"> 1 </cn>
-                </apply>
-              </apply>
-            </math>
-                    </qual:functionTerm>
-        </qual:listOfFunctionTerms>
-      </qual:transition>
-      <qual:transition qual:id="tr_Differentiation">
-        <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="CEBPA" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Differentiation_in_7"/>
-          <qual:input qual:qualitativeSpecies="ETV6" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Differentiation_in_10"/>
-          <qual:input qual:qualitativeSpecies="MEIS1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_Differentiation_in_15"/>
-        </qual:listOfInputs>
-        <qual:listOfOutputs>
-          <qual:output qual:qualitativeSpecies="Differentiation" qual:transitionEffect="assignmentLevel" qual:id="tr_Differentiation_out"/>
-        </qual:listOfOutputs>
-        <qual:listOfFunctionTerms>
-          <qual:defaultTerm qual:resultLevel="0">
-          </qual:defaultTerm>
-          <qual:functionTerm qual:resultLevel="1">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">            
-              <apply>
-                <or/>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CEBPA </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> ETV6 </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                </apply>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CEBPA </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                </apply>
-              </apply>
-            </math>
-                    </qual:functionTerm>
-        </qual:listOfFunctionTerms>
-      </qual:transition>
-      <qual:transition qual:id="tr_Proliferation">
-        <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="CCND1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Proliferation_in_6"/>
-          <qual:input qual:qualitativeSpecies="MEIS1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Proliferation_in_15"/>
-          <qual:input qual:qualitativeSpecies="MYC" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Proliferation_in_16"/>
-          <qual:input qual:qualitativeSpecies="SOX4" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Proliferation_in_18"/>
-          <qual:input qual:qualitativeSpecies="STAT5A" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_Proliferation_in_19"/>
-        </qual:listOfInputs>
-        <qual:listOfOutputs>
-          <qual:output qual:qualitativeSpecies="Proliferation" qual:transitionEffect="assignmentLevel" qual:id="tr_Proliferation_out"/>
-        </qual:listOfOutputs>
-        <qual:listOfFunctionTerms>
-          <qual:defaultTerm qual:resultLevel="0">
-          </qual:defaultTerm>
-          <qual:functionTerm qual:resultLevel="1">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">            
-              <apply>
-                <or/>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CCND1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MYC </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> SOX4 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> STAT5A </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                </apply>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CCND1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MYC </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> SOX4 </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                </apply>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CCND1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MYC </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                </apply>
-                <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> CCND1 </ci>
-                    <cn type="integer"> 0 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> MEIS1 </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                </apply>
-                <apply>
-                  <eq/>
-                  <ci> CCND1 </ci>
-                  <cn type="integer"> 1 </cn>
-                </apply>
-              </apply>
-            </math>
-                    </qual:functionTerm>
-        </qual:listOfFunctionTerms>
-      </qual:transition>
       <qual:transition qual:id="tr_AKT1">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_AKT1_in_12"/>
+          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_AKT1_in_9"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="AKT1" qual:transitionEffect="assignmentLevel" qual:id="tr_AKT1_out"/>
@@ -589,7 +376,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_CDKN2A">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_CDKN2A_in_17"/>
+          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_CDKN2A_in_14"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="CDKN2A" qual:transitionEffect="assignmentLevel" qual:id="tr_CDKN2A_out"/>
@@ -610,8 +397,8 @@
       </qual:transition>
       <qual:transition qual:id="tr_BCL2">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_BCL2_in_9"/>
-          <qual:input qual:qualitativeSpecies="TP53" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_BCL2_in_20"/>
+          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_BCL2_in_6"/>
+          <qual:input qual:qualitativeSpecies="TP53" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_BCL2_in_17"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="BCL2" qual:transitionEffect="assignmentLevel" qual:id="tr_BCL2_out"/>
@@ -640,8 +427,8 @@
       </qual:transition>
       <qual:transition qual:id="tr_CCND1">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="DNMT3A" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CCND1_in_8"/>
-          <qual:input qual:qualitativeSpecies="GSK3B" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CCND1_in_13"/>
+          <qual:input qual:qualitativeSpecies="DNMT3A" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CCND1_in_5"/>
+          <qual:input qual:qualitativeSpecies="GSK3B" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CCND1_in_10"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="CCND1" qual:transitionEffect="assignmentLevel" qual:id="tr_CCND1_out"/>
@@ -670,7 +457,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_CEBPA">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CEBPA_in_12"/>
+          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_CEBPA_in_9"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="CEBPA" qual:transitionEffect="assignmentLevel" qual:id="tr_CEBPA_out"/>
@@ -700,7 +487,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_MAPK1">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MAPK1_in_12"/>
+          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MAPK1_in_9"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="MAPK1" qual:transitionEffect="assignmentLevel" qual:id="tr_MAPK1_out"/>
@@ -721,7 +508,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_ETV6">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_ETV6_in_9"/>
+          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_ETV6_in_6"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="ETV6" qual:transitionEffect="assignmentLevel" qual:id="tr_ETV6_out"/>
@@ -742,7 +529,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_FBXW7">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_FBXW7_in_17"/>
+          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_FBXW7_in_14"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="FBXW7" qual:transitionEffect="assignmentLevel" qual:id="tr_FBXW7_out"/>
@@ -772,7 +559,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_GSK3B">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="AKT1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_GSK3B_in_3"/>
+          <qual:input qual:qualitativeSpecies="AKT1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_GSK3B_in_0"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="GSK3B" qual:transitionEffect="assignmentLevel" qual:id="tr_GSK3B_out"/>
@@ -793,7 +580,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_HOXA9">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_HOXA9_in_17"/>
+          <qual:input qual:qualitativeSpecies="NPM1" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_HOXA9_in_14"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="HOXA9" qual:transitionEffect="assignmentLevel" qual:id="tr_HOXA9_out"/>
@@ -814,8 +601,8 @@
       </qual:transition>
       <qual:transition qual:id="tr_MEIS1">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="DNMT3A" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MEIS1_in_8"/>
-          <qual:input qual:qualitativeSpecies="HOXA9" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MEIS1_in_14"/>
+          <qual:input qual:qualitativeSpecies="DNMT3A" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MEIS1_in_5"/>
+          <qual:input qual:qualitativeSpecies="HOXA9" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MEIS1_in_11"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="MEIS1" qual:transitionEffect="assignmentLevel" qual:id="tr_MEIS1_out"/>
@@ -826,24 +613,16 @@
           <qual:functionTerm qual:resultLevel="1">
             <math xmlns="http://www.w3.org/1998/Math/MathML">            
               <apply>
-                <or/>
+                <and/>
                 <apply>
                   <eq/>
                   <ci> DNMT3A </ci>
                   <cn type="integer"> 0 </cn>
                 </apply>
                 <apply>
-                  <and/>
-                  <apply>
-                    <eq/>
-                    <ci> DNMT3A </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
-                  <apply>
-                    <eq/>
-                    <ci> HOXA9 </ci>
-                    <cn type="integer"> 1 </cn>
-                  </apply>
+                  <eq/>
+                  <ci> HOXA9 </ci>
+                  <cn type="integer"> 1 </cn>
                 </apply>
               </apply>
             </math>
@@ -852,9 +631,9 @@
       </qual:transition>
       <qual:transition qual:id="tr_MYC">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MYC_in_9"/>
-          <qual:input qual:qualitativeSpecies="FBXW7" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MYC_in_11"/>
-          <qual:input qual:qualitativeSpecies="GSK3B" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MYC_in_13"/>
+          <qual:input qual:qualitativeSpecies="MAPK1" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_MYC_in_6"/>
+          <qual:input qual:qualitativeSpecies="FBXW7" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MYC_in_8"/>
+          <qual:input qual:qualitativeSpecies="GSK3B" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_MYC_in_10"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="MYC" qual:transitionEffect="assignmentLevel" qual:id="tr_MYC_out"/>
@@ -913,7 +692,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_SOX4">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="CEBPA" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_SOX4_in_7"/>
+          <qual:input qual:qualitativeSpecies="CEBPA" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_SOX4_in_4"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="SOX4" qual:transitionEffect="assignmentLevel" qual:id="tr_SOX4_out"/>
@@ -934,7 +713,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_STAT5A">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_STAT5A_in_12"/>
+          <qual:input qual:qualitativeSpecies="FLT3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_STAT5A_in_9"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="STAT5A" qual:transitionEffect="assignmentLevel" qual:id="tr_STAT5A_out"/>
@@ -955,7 +734,7 @@
       </qual:transition>
       <qual:transition qual:id="tr_TP53">
         <qual:listOfInputs>
-          <qual:input qual:qualitativeSpecies="CDKN2A" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_TP53_in_4"/>
+          <qual:input qual:qualitativeSpecies="CDKN2A" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_TP53_in_1"/>
         </qual:listOfInputs>
         <qual:listOfOutputs>
           <qual:output qual:qualitativeSpecies="TP53" qual:transitionEffect="assignmentLevel" qual:id="tr_TP53_out"/>
