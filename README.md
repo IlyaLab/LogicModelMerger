@@ -33,10 +33,12 @@ This repository is organized according to the workflow described in the manuscri
 4. **`Evaluating the Merged Model`**: 
     - [Functions](Evaluating%20the%20merged%20model/Helper%20functions.ipynb): Provides some helper functions for evaluating logical models.
     - Contains notebooks for various evaluation tasks:
-        - [**Coverage**](Evaluating%20the%20merged%20model/Coverage.ipynb): Assessing the coverage of AML patients with each mutation profiles using BeatAML, TCGA, AMLSG and cBioPortal data.
-        - [**Stable States Heatmap**](Evaluating%20the%20merged%20model/Stable%20states%20heatmap.ipynb): Visualizing stable states of the merged models and clustering them with individual models. *(Fig 2B, 3B, S1)*
-        - [**Correlation with HSC Expression**](Evaluating%20the%20merged%20model/Correlation%20with%20HSC%20expression.ipynb): Analyzing the correlation of model predictions with hematopoietic stem cell expression data. *(Fig 2C-E, Fig S2)*
-        - **Correlation with Clinical Outcomes**: Separate notebooks for evaluating correlations with different clinical indicators/datasets:
+        - [Coverage](Evaluating%20the%20merged%20model/Coverage.ipynb): Assessing the coverage of AML patients with each mutation profiles using BeatAML, TCGA, AMLSG and cBioPortal data.
+        - Stable States Heatmap: Visualizing stable states of the merged models and clustering them with individual models.
+            - [Stable States Heatmap - Asynchronous update](Evaluating%20the%20merged%20model/Stable%20states%20heatmap_asynchronous.ipynb) *(Fig 2B, S1)*
+            - [Stable States Heatmap - Synchronous update](Evaluating%20the%20merged%20model/Stable%20states%20heatmap_synchronous.ipynb) *(Fig 3B, S1)*
+        - [Correlation with HSC Expression](Evaluating%20the%20merged%20model/Correlation%20with%20HSC%20expression.ipynb): Analyzing the correlation of model predictions with hematopoietic stem cell expression data. *(Fig 2C-E, Fig S2)*
+        - Correlation with Clinical Outcomes: Separate notebooks for evaluating correlations with different clinical indicators/datasets:
             - Blast percentages from the BeatAML data
                 - [Using approach similar to Palma et al.](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_BeatAML_Palma%20approach.ipynb) *(Fig 3C-D, Fig S4)*
                 - [Using all mutations](Evaluating%20the%20merged%20model/Correlation%20with%20clinical%20outcome_BeatAML_all%20mutation.ipynb) *(Fig 3E-F, Fig S4)*
