@@ -2,7 +2,11 @@
 
 ## Overview
 
-This repository contains the code and resources for merging gene regulatory network (GRN) models as described in the manuscript **"Workflow for merging logical models: An application to gene regulation"**. The repository provides a semi-automated workflow for merging logic models, and demonstrate its application in Acute Myeloid Leukemia (AML) models.
+This repository provides a semi-automated workflow for merging logic models, and demonstrate its application using a set of Acute Myeloid Leukemia (AML) models.  
+
+The workflow is described in the manuscript **"LM-Merger: A workflow for merging logical models with an application to gene regulation"**. ([link](https://www.biorxiv.org/content/10.1101/2024.09.13.612961v3))
+>Li LX, Aguilar B, Gennari J, Qin G. LM-Merger: A workflow for merging logical models with an application to gene regulation. bioRxiv. 2024 Jan 1;2024.09.13.612961. 
+
 
 The workflow involves sequential steps:
 
