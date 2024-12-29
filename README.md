@@ -59,11 +59,18 @@ This repository is organized according to the workflow described in the manuscri
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/IlyaLab/LogicModelMerger.git
+    ```
+2. **Install and open the CoLoMoTo Notebook** :  
 
-2. **Install and open the CoLoMoTo Notebook** (Optional):
+    While running the notebooks in a standard Jupyter environment is possible, we recommend using the CoLoMoTo Interactive Notebook for better compatibility and streamlined integration with qualitative modeling tools.  
+
+   ```bash
+   pip install -U colomoto-docker 
+   colomoto-docker # start the notebook in a terminal
+    ```
    Please refer to the usage guide on their [website](https://colomoto.github.io/colomoto-docker/).
 
-3. **Run notebooks:**
+3. **Run notebooks:**  
    Navigate to the relevant directory and open the Jupyter notebooks using the CoLoMoTo notebook or your preferred Jupyter environment.
 
 
