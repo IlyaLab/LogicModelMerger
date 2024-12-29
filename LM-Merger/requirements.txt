@@ -1,0 +1,2 @@
+# Python dependencies for LM-Merger in addition to CoLoMoTo Docker image
+libsbml
