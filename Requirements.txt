@@ -1,3 +1,14 @@
+# Option 1: Use the Colomoto notebook
+# Please refer to the usage guide on their website: https://colomoto.github.io/colomoto-docker/
+
+
+# Option 2: Install the following packages locally
 python-libsbml==5.20.4
 boolean.py==4.0
 rpy2==3.5.17
+ginsim==0.4.5
+
+# R packages (install via R):
+# BoolNet==2.1.9
+# (This is only required if you want to export the model to SBML-qual)
+
