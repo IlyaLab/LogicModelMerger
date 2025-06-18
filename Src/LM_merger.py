@@ -2,8 +2,8 @@ import re
 import libsbml
 import os
 import boolean
-from rpy2.robjects.packages import importr
-boolnet = importr("BoolNet")
+# from rpy2.robjects.packages import importr
+# boolnet = importr("BoolNet")
 
 def read_network(file_path, body_separator=","):
     """
@@ -378,3 +378,66 @@ def write_network_to_file(network, filename, format="text"):
     
     else:
         raise ValueError("Invalid format specified. Use 'text' or 'sbml'.")
+
+def customize_node(merged_network, networks, nodes, method):
+    """
+    Customize the merge method for specific nodes after merge_networks.
+    For the specified nodes, re-merge their rules from the original networks using the given method.
+    The rest of the merged_network remains unchanged.
+
+    :param merged_network: The merged network dictionary (output of merge_networks).
+    :param networks: List of original network dictionaries.
+    :param nodes: List of node names (or a single node name) to customize.
+    :param method: Merge method to use for these nodes ("OR", "AND", or "Inhibitor Wins").
+    :return: The updated merged_network dictionary.
+    """
+    if isinstance(nodes, str):
+        nodes = [nodes]
+    nodes = [n.upper() for n in nodes]
+    if method not in ["OR", "AND", "Inhibitor Wins"]:
+        raise ValueError("Invalid method. Use 'OR', 'AND', or 'Inhibitor Wins'.")
+
+    algebra = boolean.BooleanAlgebra()
+
+    for node in nodes:
+        print(f"Customizing node: {node}")
+        # Collect all expressions for this node from all networks
+        node_expressions = [network[node] for network in networks if node in network]
+        if not node_expressions:
+            continue  # Node not present in any network
+        # Merge expressions for this node using the specified method
+        merged_expr = node_expressions[0]
+        for expr in node_expressions[1:]:
+            if algebra.parse(merged_expr) == algebra.parse(expr):
+                continue
+            if method == "OR":
+                merged_expr = f"({merged_expr})|({expr})"
+            elif method == "AND":
+                merged_expr = f"({merged_expr})&({expr})"
+            elif method == "Inhibitor Wins":
+                activators, inhibitors = parse_expression(expr)
+                existing_activators, existing_inhibitors = parse_expression(merged_expr)
+                combined_activators = list(set(existing_activators + activators))
+                combined_inhibitors = list(set(existing_inhibitors + inhibitors))
+                activator_expr = '|'.join(filter(None, combined_activators)) if combined_activators else ""
+                inhibitor_expr = '|'.join(filter(None, combined_inhibitors)) if combined_inhibitors else ""
+                activator_genes = set(re.split(r'\|', activator_expr))
+                inhibitor_genes = set(re.split(r'\|', inhibitor_expr))
+                if activator_genes & inhibitor_genes:
+                    overlappings = list(activator_genes & inhibitor_genes)
+                    for overlapping in overlappings:
+                        activator_expr = re.sub(rf'(\||&)?{overlapping}(\||&)?', '', activator_expr).strip('|&')
+                if inhibitor_expr:
+                    if '&' in inhibitor_expr or '|' in inhibitor_expr:
+                        merged_expr = f"({activator_expr})&!({inhibitor_expr})"
+                    else:
+                        merged_expr = f"({activator_expr})&!{inhibitor_expr}"
+                else:
+                    merged_expr = activator_expr
+        # Simplify and update the merged_network for this node
+        print(f"{node} function before customization: {merged_network[node]}")
+        merged_expr = simplify_expression(merged_expr)
+        print(f"{node} function after customization: {merged_expr}")
+        merged_network[node] = simplify_expression(merged_expr)
+        print('\n')
+    return merged_network
