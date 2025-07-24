@@ -1,12 +1,12 @@
-# A Workflow for Merging Logical Gene Regulatory Network Models
+# LM-Merger: A Workflow for Merging Logical Gene Regulatory Network Models
 
 ## Overview
 
 This repository provides a semi-automated workflow for merging logic models, and demonstrate its application using a set of Acute Myeloid Leukemia (AML) models.
 
-The workflow is described in the manuscript **"LM-Merger: A workflow for merging logical models with an application to gene regulation"**. ([link](https://www.biorxiv.org/content/10.1101/2024.09.13.612961v3))
+The workflow is described in the manuscript **"LM-Merger: A workflow for merging logical models with an application to gene regulatory network models"**. ([link](http://doi.org/10.1186/s12859-025-06212-2))
 
-> Li LX, Aguilar B, Gennari J, Qin G. LM-Merger: A workflow for merging logical models with an application to gene regulation. bioRxiv. 2024 Jan 1;2024.09.13.612961.
+> Li LX, Aguilar B, Gennari J, Qin G. LM-Merger: a workflow for merging logical models with an application to gene regulatory network models. BMC Bioinformatics. 2025 Jul 15;26:178.
 
 The workflow involves sequential steps:
 
